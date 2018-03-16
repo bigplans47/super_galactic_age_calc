@@ -1,38 +1,28 @@
-## Planning
+A Project to make a Super Galactic Age Calculator
 
-1. Configuration/dependencies/Objectives
-      Business logic is thoroughly tested with Jasmine.
-      Karma is set up correctly.
-      Project utilizes ES6 features including classes, let and const.
-      Dependencies are managed with npm.
-      Application uses webpack to lint, bundle, and process code.
-      Project is in a polished, portfolio-quality state. (Clear code presentation, error free, complete README, commit history, etc.)
-      Specs were committed before any code.
-      Required functionality was in place by the Friday deadline.
-      Project demonstrates understanding of week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+An application where you can calculate your age on different planets based on your Earth age, includes, Mercury, Venus, Mars and Jupiter. This project is served with Webpack, and has testing written in Jasmine and run by Karma to support JS ES6 features. Note project does not have a UI.
 
-2. Specs
-  Take a person’s age in years and convert it into seconds.
-  Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare the birthdate against the current time to come up with an accurate age.)
-  Return the age of a human in Mercury years. (A Mercury year is .24 Earth years.)
-  Return the age of a human in Venus years. (A Venus year is .62 Earth years.)
-  Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.)
-  Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.)
-  Determine how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user’s life expectancy. You can determine average life expectancy as you see fit. A simple way to do this would be to have the user input the average life expectancy for their demographic. A more involved way to do this would be to collect other information from the user (e.g. lifestyle, country of residence, activity level, etc.) to determine their life expectancy.
-  If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.
+To Test Locally
 
-3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for ...
-  * Template/html page for ...
-  * Template/html page for ... (one for each route/integrated user story)
-  * Display...
-  * Integrate feature that...
+git clone to your desktop, then in terminal $ cd super_galactic_age_calculator then $ npm install -y to install all required packages. To run tests type $ npm run test
 
-4. UX/UI
-  None
+Specifications:
+Note to see specs visit project root directory /spec/age-spec.js runs logic at /src/age_logic.js
+Take a person’s age in years and convert it into seconds.
+Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare the birthdate against the current time to come up with an accurate age.)
+Return the age of a human in Mercury years. (A Mercury year is .24 Earth years.)
+Return the age of a human in Venus years. (A Venus year is .62 Earth years.)
+Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.)
+Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.)
+Determine how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user’s life expectancy. You can determine average life expectancy as you see fit. A simple way to do this would be to have the user input the average life expectancy for their demographic. A more involved way to do this would be to collect other information from the user (e.g. lifestyle, country of residence, activity level, etc.) to determine their life expectancy.
+If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.
 
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
+Technologies Used
+
+Node, JS ES6, Jasmine, Karma, Webpack
+
+Support and contact details
+
+Dan Kiss email me as needed at flowfast47@gmail.com
+
+Copyright (c) 2018 Dan Kiss

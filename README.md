@@ -1,10 +1,10 @@
 A Project to make a Super Galactic Age Calculator
 
-An application where you can calculate your age on different planets based on your Earth age, includes, Mercury, Venus, Mars and Jupiter. This project is served with Webpack, and has testing written in Jasmine and run by Karma to support JS ES6 features. Note project does not have a UI.
+An application where you can calculate your age on different planets based on your Earth age, includes, Mercury, Venus, Mars and Jupiter. This project is served with Webpack, and has testing written in Jasmine and run by Karma to support JS ES6 features.
 
 To Test Locally
 
-git clone to your desktop, then in terminal $ cd super_galactic_age_calculator then $ npm install -y to install all required packages. To run tests type $ npm run test
+git clone to your desktop, then in terminal $ cd super_galactic_age_calculator then $ npm install -y to install all required packages. To run tests type $ npm run test and to run the server and see the UI type $npm run start
 
 Specifications:
 Note to see specs visit project root directory /spec/age-spec.js runs logic at /src/age_logic.js
